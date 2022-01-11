@@ -4,7 +4,7 @@
 static const char font[]        = "FantasqueSansMono Nerd Font:size=11";
 static const char* normbgcolor  = "#282828";
 static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#924441";
+static const char* selbgcolor   = "#005577";
 static const char* selfgcolor   = "#d8dee9";
 static const char* urgbgcolor   = "#1d2021";
 static const char* urgfgcolor   = "#fb4934";
@@ -43,8 +43,8 @@ static Key keys[] = {
 	{ MODKEY|Mod1Mask,      XK_Return, focusonce,   { 0 } },
 	{ MODKEY|Mod1Mask,      XK_Return, spawn,       { 0 } },
 
-	{ MODKEY, 				      XK_l,      rotate,      { .i = +1 } },
-	{ MODKEY, 				      XK_h,      rotate,      { .i = -1 } },
+	{ MODKEY,				XK_k,      rotate,      { .i = +1 } },
+	{ MODKEY, 				XK_j,      rotate,      { .i = -1 } },
 	{ MODKEY|Mod1Mask,      XK_j,      movetab,     { .i = -1 } },
 	{ MODKEY|Mod1Mask,      XK_k,      movetab,     { .i = +1 } },
 	{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
@@ -75,9 +75,8 @@ static Key keys[] = {
 };
 
 static Key keyreleases[] = {
+	/* modifier             key           function  argument */
 	{},
-	/* modifier             key           function  argument 
-	* { MODKEY|Mod1Mask,      XK_Alt_L,     showbar,  { .i = 0 } },
-	* { MODKEY|Mod1Mask,      XK_Control_L, showbar,  { .i = 0 } },
-	*/
+	/* { MODKEY|Mod1Mask,      XK_Alt_L,     showbar,  { .i = 0 } },
+	{ MODKEY|Mod1Mask,      XK_Control_L, showbar,  { .i = 0 } }, */
 };
