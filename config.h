@@ -43,8 +43,8 @@ static Key keys[] = {
 	{ MODKEY|Mod1Mask,      XK_Return, focusonce,   { 0 } },
 	{ MODKEY|Mod1Mask,      XK_Return, spawn,       { 0 } },
 
-	{ MODKEY,				XK_k,      rotate,      { .i = +1 } },
-	{ MODKEY, 				XK_j,      rotate,      { .i = -1 } },
+	{ MODKEY|ShiftMask,			XK_k,      rotate,      { .i = +1 } },
+	{ MODKEY|ShiftMask, 		XK_j,      rotate,      { .i = -1 } },
 	{ MODKEY|Mod1Mask,      XK_j,      movetab,     { .i = -1 } },
 	{ MODKEY|Mod1Mask,      XK_k,      movetab,     { .i = +1 } },
 	{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
