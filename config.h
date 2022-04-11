@@ -1,11 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "FantasqueSansMono Nerd Font:size=11";
+static const char font[]        = "JetBrainsMono Nerd Font:size=12";
 static const char* normbgcolor  = "#282828";
 static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#005577";
-static const char* selfgcolor   = "#d8dee9";
+static const char* selbgcolor   = "#96cdfb";
+static const char* selfgcolor   = "#1d2021";
 static const char* urgbgcolor   = "#1d2021";
 static const char* urgfgcolor   = "#fb4934";
 static const char before[]      = "<";
